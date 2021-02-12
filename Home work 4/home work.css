@@ -1,0 +1,136 @@
+*{
+margin:0;
+padding: 0;
+    font-size: 25px;
+}
+.header{
+width:100%;
+height: 60px;
+background: #ddd;
+border: 5px solid #aaa;
+}
+.logo{
+width:30%;
+float:left;
+color:dark-blue;
+text-align: center;
+margin-top:10px;
+}
+.header nav{
+width:60%;
+height: 30px;
+margin-top:10px;
+margin-right:20px;
+text-align:right;
+float: right;
+}
+.header nav li{
+display: inline-block;
+color:black;
+background: #d4c5c5;
+padding: 2px 10px;
+border-radius: 3px;
+border: 1px solid gray;
+margin-left: 10px;
+}
+.header ul li:first-child{
+margin-left: 0;
+}
+
+.tabl{
+background: #efd2d2;
+width:100%;
+text-align:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+table, th, td{
+border-collapse:collapse;
+border: 1px solid #40402e;
+    text-align: center;
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+.list{width: 100%;
+    height: 30vh;
+    background: #f28a8a;
+    font-family: cursive;
+    color: #072b2e;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.list .bl{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.list .goal{
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+.list h2:first-child{
+    margin-left: 4%;
+}
+.list ol{
+    margin-left: 5%;
+    list-style: decimal;
+    font-size: 1.1rem;
+}
+.list ul{
+    margin-left: 5%;
+    width: 100%;
+    font-size: 1.1rem;
+}
+.vid-img{
+    width: 100%;
+    background: #af8989;
+    height: 90vh;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.video{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.img{
+    width: 50%;
+    display: inline-block;
+}
+.vid-img h2{
+    color: #014d01;
+    margin-left: 5%;
+    font-size: 1.4rem;
+}
+.vid-img h4{
+    margin-left: 5%;
+    font-size: 1.5rem;
+    color: #1e2b36;
+}
+iframe{
+    margin-left: 5%;
+}
+.img img, p{
+    margin-left: 5%;
+}
+.footer{
+    width: 100%;
+    background: #b7d2d3;
+    height: 100px;
+}
+.footer ul{
+    width: 30%;
+    margin: auto;
+}
+.footer ul li{
+    display: inline-block;
+    float: left;
+    margin: 2px 10px;
+    color: #1f5c04;
+}
+.footer h4{
+    text-align: center; 
+}
